@@ -1,3 +1,4 @@
 ﻿
 //Migrations Database
--> 
+dotnet ef migrations add name_migration
+dotnet ef database update
