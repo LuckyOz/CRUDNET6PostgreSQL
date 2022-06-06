@@ -7,6 +7,9 @@ namespace EFCorePostgreSQL.Models.Context
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<Product> products { get; set; }    
+        public DbSet<Product> products { get; set; }  
+        public DbSet<m_Connections> m_Connections { get; set;}  
     }
+
+
 }
