@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EFCorePostgreSQL.Models
 {
-    public class m_Connections
+    public class m_Connection
     {
         [Key]
         public string company { get; set; }

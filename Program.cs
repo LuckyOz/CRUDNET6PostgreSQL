@@ -24,7 +24,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/product/", async (DataContext db) => await db.products.ToListAsync());
 
-app.MapGet("/connsbo/", async (DataContext db) => await db.m_Connections.ToListAsync());
+app.MapGet("/connsbo/", async (DataContext db) => await db.m_Connection.ToListAsync());
 
 app.MapGet("/product/{id}", async (DataContext db, int id) => await db.products.FindAsync(id));
 
